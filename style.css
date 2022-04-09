@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #5e7b8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.carusel {
+  position: relative;
+}
+.slides img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.controls i {
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 0.5s ease;
+}
+.controls i:hover{
+  color: #e01e1e;
+}
+.fa-angle-right {
+  position: absolute;
+  right: -7%;
+  bottom: 47%;
+}
+.fa-angle-left {
+  position: absolute;
+  left: -7%;
+  bottom: 47%;
+}
+.inDots{
+    text-align: center;
+    margin-top: 7px;
+}
+.spanDot{
+    margin: 0 3px;
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;   
+    background-color: #5e7b8c;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.inDots span:hover{
+    background-color: #3a4c57;
+}
+.active{
+    background-color: #3a4c57;
+}
