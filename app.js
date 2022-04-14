@@ -1,5 +1,4 @@
 const myImages = [
-  { url: "  " },
   { url: "https://loremflickr.com/1040/480/car" },
   { url: "https://loremflickr.com/1040/480/cat" },
   { url: "https://loremflickr.com/1040/480/happy" },
